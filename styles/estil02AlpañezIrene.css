@@ -264,6 +264,8 @@ background-color: var(--botoActiuFons);
 border: 3px solid var(--botoActiuVora);
 box-shadow: var(--botoActiuOmbra);
 cursor: pointer;
+left: 68%;
+position: absolute;
 }
 
 button.actiu:hover {
@@ -312,3 +314,24 @@ button.actiu:hover {
 }
 
 /* -- FINAL Definició d'atributs que tindran elements button en concret. */
+
+
+/* Exercici 2 */
+
+
+.elementVisibleIA {
+  display: block;
+}
+
+.elementOcultIA {
+  display: none;
+}
+
+
+
+/* Exercici 3 */
+
+.boto actiu {
+  left: 68%;
+  position: absolute;
+}
