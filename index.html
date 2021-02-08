@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/estil.css">
+    <link rel="stylesheet" href="./styles/estil02AlpañezIrene.css">
     <title>Examen</title>
   </head>
   <body>
@@ -12,8 +12,8 @@
     </header>
     <main>
 
-      <article>
-        <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
+      <article class="elementVisibleIA">
+        <span class="titol negre" >MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitol vermell">8 de febrer de 2021</span>
         <div class="botons">
           <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
@@ -21,7 +21,7 @@
         </div>
       </article>
 
-      <article id="enunciat_1">
+      <article id="enunciat_1" class="elementOcultIA">
         <span class="subtitol negre">Exercici 1</span>
         <div>
           <div class="enunciat">
@@ -48,7 +48,7 @@
         </div>
       </article>
 
-      <article id="enunciat_2">
+      <article id="enunciat_2" class="elementOcultIA">
         <span class="subtitol negre">Exercici 2</span>
         <div>
           <div class="enunciat">
@@ -85,7 +85,7 @@
           <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
-    </main>
+    <main>
       
     <script src="./js/examen.js"></script>
     <script src="./js/matrius.js"></script>
