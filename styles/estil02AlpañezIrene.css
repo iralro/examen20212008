@@ -264,6 +264,8 @@ background-color: var(--botoActiuFons);
 border: 3px solid var(--botoActiuVora);
 box-shadow: var(--botoActiuOmbra);
 cursor: pointer;
+left: 68%;
+position: absolute;
 }
 
 button.actiu:hover {
@@ -325,4 +327,12 @@ button.actiu:hover {
   display: none;
 }
 
+
+
+/* Exercici 3 */
+
+.boto actiu {
+  left: 68%;
+  position: absolute;
+}
 
